@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C366C219F77C2E00A5E5B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C366C119F77C2E00A5E5B3 /* AppDelegate.swift */; };
+		B3C366C419F77C2E00A5E5B3 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C366C319F77C2E00A5E5B3 /* TestTableViewController.swift */; };
+		B3C366C919F77C2E00A5E5B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C366C819F77C2E00A5E5B3 /* Images.xcassets */; };
+		B3C366CC19F77C2E00A5E5B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C366CA19F77C2E00A5E5B3 /* LaunchScreen.xib */; };
+		B3C366E219F77C9300A5E5B3 /* DVColorLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C366E119F77C9300A5E5B3 /* DVColorLockView.swift */; };
+		B3C366E619F78AFE00A5E5B3 /* DVColorLockViewTableViewCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C366E519F78AFE00A5E5B3 /* DVColorLockViewTableViewCellTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3C366BC19F77C2E00A5E5B3 /* DVColorLockViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVColorLockViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C366C019F77C2E00A5E5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C366C119F77C2E00A5E5B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3C366C319F77C2E00A5E5B3 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		B3C366C819F77C2E00A5E5B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3C366CB19F77C2E00A5E5B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B3C366E119F77C9300A5E5B3 /* DVColorLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVColorLockView.swift; sourceTree = "<group>"; };
+		B3C366E519F78AFE00A5E5B3 /* DVColorLockViewTableViewCellTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVColorLockViewTableViewCellTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C366B919F77C2E00A5E5B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C366B319F77C2D00A5E5B3 = {
+			isa = PBXGroup;
+			children = (
+				B3C366E119F77C9300A5E5B3 /* DVColorLockView.swift */,
+				B3C366BE19F77C2E00A5E5B3 /* DVColorLockViewDemo */,
+				B3C366BD19F77C2E00A5E5B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C366BD19F77C2E00A5E5B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C366BC19F77C2E00A5E5B3 /* DVColorLockViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C366BE19F77C2E00A5E5B3 /* DVColorLockViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B3C366C119F77C2E00A5E5B3 /* AppDelegate.swift */,
+				B3C366E519F78AFE00A5E5B3 /* DVColorLockViewTableViewCellTest.swift */,
+				B3C366C319F77C2E00A5E5B3 /* TestTableViewController.swift */,
+				B3C366C819F77C2E00A5E5B3 /* Images.xcassets */,
+				B3C366CA19F77C2E00A5E5B3 /* LaunchScreen.xib */,
+				B3C366BF19F77C2E00A5E5B3 /* Supporting Files */,
+			);
+			path = DVColorLockViewDemo;
+			sourceTree = "<group>";
+		};
+		B3C366BF19F77C2E00A5E5B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C366C019F77C2E00A5E5B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C366BB19F77C2E00A5E5B3 /* DVColorLockViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C366DB19F77C2E00A5E5B3 /* Build configuration list for PBXNativeTarget "DVColorLockViewDemo" */;
+			buildPhases = (
+				B3C366B819F77C2E00A5E5B3 /* Sources */,
+				B3C366B919F77C2E00A5E5B3 /* Frameworks */,
+				B3C366BA19F77C2E00A5E5B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVColorLockViewDemo;
+			productName = DVColorLockViewDemo;
+			productReference = B3C366BC19F77C2E00A5E5B3 /* DVColorLockViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C366B419F77C2D00A5E5B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dylan Vann";
+				TargetAttributes = {
+					B3C366BB19F77C2E00A5E5B3 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B3C366B719F77C2D00A5E5B3 /* Build configuration list for PBXProject "DVColorLockViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C366B319F77C2D00A5E5B3;
+			productRefGroup = B3C366BD19F77C2E00A5E5B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C366BB19F77C2E00A5E5B3 /* DVColorLockViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C366BA19F77C2E00A5E5B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C366CC19F77C2E00A5E5B3 /* LaunchScreen.xib in Resources */,
+				B3C366C919F77C2E00A5E5B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C366B819F77C2E00A5E5B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C366C419F77C2E00A5E5B3 /* TestTableViewController.swift in Sources */,
+				B3C366E619F78AFE00A5E5B3 /* DVColorLockViewTableViewCellTest.swift in Sources */,
+				B3C366C219F77C2E00A5E5B3 /* AppDelegate.swift in Sources */,
+				B3C366E219F77C9300A5E5B3 /* DVColorLockView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3C366CA19F77C2E00A5E5B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C366CB19F77C2E00A5E5B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C366D919F77C2E00A5E5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C366DA19F77C2E00A5E5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C366DC19F77C2E00A5E5B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVColorLockViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3C366DD19F77C2E00A5E5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVColorLockViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C366B719F77C2D00A5E5B3 /* Build configuration list for PBXProject "DVColorLockViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C366D919F77C2E00A5E5B3 /* Debug */,
+				B3C366DA19F77C2E00A5E5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C366DB19F77C2E00A5E5B3 /* Build configuration list for PBXNativeTarget "DVColorLockViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C366DC19F77C2E00A5E5B3 /* Debug */,
+				B3C366DD19F77C2E00A5E5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C366B419F77C2D00A5E5B3 /* Project object */;
+}
