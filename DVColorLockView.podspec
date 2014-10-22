@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "DVColorLockLabel"
+  s.name             = "DVColorLockView"
   s.version          = "0.1.0"
   s.summary          = "UITableViewCell highlighting does not change the color of DVColorLockViews."
   s.homepage         = "https://github.com/DylanVann/DVColorLockView"
