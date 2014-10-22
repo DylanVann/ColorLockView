@@ -4,11 +4,9 @@
 
 UITableViewCell highlighting does not change the color of DVColorLockViews.
 
-DVColorLockView overides the backgroundColor setter for UIView. 
-
-Highlighting a UITableViewCell changes the background color of all it's subviews, it's annoying.
-
-Highlighting a UITableViewCell won't change the color of its DVColorLockView subviews.
+- DVColorLockView overides the backgroundColor setter for UIView. 
+- Highlighting a UITableViewCell changes the background color of all it's subviews, it's annoying.
+- Highlighting a UITableViewCell won't change the color of its DVColorLockView subviews.
 
 ##Installation
 In your podfile:
