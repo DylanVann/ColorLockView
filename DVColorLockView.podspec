@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/atomarranger'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source_files = 'DVColorLockView.swift'
+  s.source_files = 'DVColorLockView.swift, DVColorLockView-Swift.h'
   s.frameworks = 'UIKit'
 end
