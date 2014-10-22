@@ -10,7 +10,11 @@ UITableViewCell highlighting does not change the color of DVColorLockViews.
 
 ##Installation
 In your podfile:
-<pre>pod 'DVColorLockView', :git => 'https://github.com/DylanVann/DVColorLockView.git', :tag => 'v0.1.0'</pre>
+<pre>pod 'DVColorLockView', :git => 'https://github.com/DylanVann/DVColorLockView.git', :tag => 'v0.1.5'</pre>
+
+**Note:**
+
+Using DVColorLockView within Objective-C through cocoapods is not currently supported. You could copy DVColorLockView.swift and use the normal procedure for bridging.
 
 ##Licence
 MIT
